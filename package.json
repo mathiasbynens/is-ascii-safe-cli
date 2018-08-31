@@ -1,0 +1,41 @@
+{
+	"name": "is-ascii-safe-cli",
+	"version": "0.0.0",
+	"description": "Check if a given file (or list of files) is ASCII-safe, i.e. consisting of ASCII characters (U+0000 to U+007F) only.",
+	"homepage": "https://github.com/mathiasbynens/is-ascii-safe-cli",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathiasbynens/is-ascii-safe-cli.git"
+	},
+	"bugs": "https://github.com/mathiasbynens/is-ascii-safe-cli/issues",
+	"main": "cli.js",
+	"bin": {
+		"is-ascii-safe": "cli.js"
+	},
+	"files": [
+		"cli.js",
+		"LICENSE",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"scripts": {
+		"test": "node cli.js *.js *.json"
+	},
+	"author": {
+		"name": "Mathias Bynens",
+		"url": "https://mathiasbynens.be/"
+	},
+	"license": "Apache-2.0",
+	"keywords": [
+		"unicode",
+		"ascii",
+		"non-ascii",
+		"lint",
+		"cli"
+	],
+	"dependencies": {
+		"is-ascii-safe": "0.0.0"
+	}
+}
