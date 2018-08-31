@@ -1,4 +1,4 @@
-# is-ascii-safe-cli [![Build status](https://travis-ci.org/mathiasbynens/is-ascii-safe.svg?branch=master)](https://travis-ci.org/mathiasbynens/is-ascii-safe)
+# is-ascii-safe-cli [![Build status](https://travis-ci.com/mathiasbynens/is-ascii-safe.svg?branch=master)](https://travis-ci.com/mathiasbynens/is-ascii-safe)
 
 _is-ascii-safe-cli_ checks whether a given file (or list of files) is ASCII-safe, i.e. consisting of ASCII characters (U+0000 to U+007F) only. It returns a non-zero exit status if any of the files contains a non-ASCII character.
 
