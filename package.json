@@ -36,6 +36,6 @@
 		"cli"
 	],
 	"dependencies": {
-		"is-ascii-safe": "0.0.0"
+		"is-ascii-safe": "^1.0.0"
 	}
 }
